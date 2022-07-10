@@ -7,6 +7,6 @@ This repository uses the official [sakila](https://dev.mysql.com/doc/index-other
 ### build and run docker-compose
 `docker-compose up -d`
 
-### enter the container and access MySQL server
+### Or, enter the container and access MySQL server
 1. `docker-compose run mysql bash`
 1. `mysql -u root -h host.docker.internal -p`
